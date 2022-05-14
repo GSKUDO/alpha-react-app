@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
   
-function App() {
+function App2() {
     const [description , setDescription] = useState('');
     const [date , setDate] = useState('');
     const [local , setLocal] = useState('');
@@ -33,4 +33,4 @@ function App() {
   );
 }
   
-export default App;
+export default App2;
