@@ -17,23 +17,18 @@ code {
 
 header {
   position: absolute;
-
   width: 100%;
   height: 63px;
   left: 0px;
   top: 0px;
-
   background: #0acd86;
-
   display: flex;
   justify-content: space-between;
-
 }
 
 .logo {
   width: 120px;
   height: 100%;
-
   background: #0aab6b;
 }
 
@@ -44,28 +39,25 @@ header {
   align-items: center;
   justify-content: flex-start;
   gap:20px;
-
   font-family: 'Jockey One', sans-serif;
 }
-button {
+
+.btn-menu, .selected{
   width: 140px;
   height: 40px;
-
   border: none;
   border-radius: 34px;
   background: #0ACD86;
-
   font-family: "Jockey One";
   font-size: 20px;
   text-align: center;
   color: #0AAB6B;
-
   cursor: pointer;
   transition: 0.4s;
   
 }
 
-button:hover, .selected{
+.btn-menu:hover, .selected{
   background: #FFFFFF;
 }
 
@@ -81,12 +73,95 @@ button:hover, .selected{
 }
 
 main {
-  width: calc(100vw - 240px);
+  width: calc(100vw - 200px);
   height: 640px;
   left: 117px;
-
-  background: #F2F2F2;
   margin: 0 auto;
-  margin-top: 224px;
+  margin-top: 100px;
+}
 
+.Add{
+  height: 212px;
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.inputDescription{
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 650px;
+  height: 38px;
+  background: #FFFFFF;
+  border-radius: 17px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  color: #f2f2f2;
+  padding-left: 20px;
+  border: none;
+}
+
+.inputDate{
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 280px;
+  height: 38px;
+  background: #FFFFFF;
+  border-radius: 17px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  color: #f2f2f2;
+  padding-left: 20px;
+  border: none;
+}
+
+.inputLocal{
+  margin-top: 20px;
+  margin-left: 70px;
+  width: 280px;
+  height: 38px;
+  background: #FFFFFF;
+  border-radius: 17px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  color: #f2f2f2;
+  padding-left: 20px;
+  border: none;
+}
+
+.btnadicionar{
+  margin-left: 30px;
+  height: 38px;
+  text-align: center;
+  width: 150px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  background: #0AAB6B;
+  border-radius: 17px;
+  color: white;
+}
+
+.btnlimpar{
+  margin-left: 30px;
+  height: 38px;
+  text-align: center;
+  width: 150px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  background: #E1B84F;
+  border-radius: 17px;
+  color: white;
+}
+
+.Show{
+  height: 476px;
+  background: #F2F2F2;
 }

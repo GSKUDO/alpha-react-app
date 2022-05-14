@@ -9,9 +9,9 @@ function Header() {
       <div className="logo"></div>
       <div className="menu">
           <Button className="selected" innerText="Home"/>
-          <Button innerText="Today"/>
-          <Button innerText="Weekly"/>
-          <Button innerText="Monthly"/>
+          <Button className="btn-menu"  innerText="Today"/>
+          <Button className="btn-menu"  innerText="Weekly"/>
+          <Button className="btn-menu"  innerText="Monthly"/>
       </div>
       <div className="user-profile">
         <img src={UserIcon} alt="User Profile" />
