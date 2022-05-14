@@ -7,13 +7,13 @@ function Main() {
     <main>
         <section className="Add">
             <div>
-                <Input className="inputDescription" type="text" placeholder="Descrição"></Input>
-                <Button className="btnadicionar" innerText="ADICIONAR"/>
+                <Input className="inputDescription" type="text" value={this.value} placeholder="Descrição"></Input>
+                <Button className="btnadicionar" onClick="add()" innerText="ADICIONAR"/>
             </div>
             <div>
                 <Input className="inputDate" type="date" placeholder="Data"></Input>
                 <Input className="inputLocal" type="text" placeholder="Local"></Input>
-                <Button className="btnlimpar" innerText="LIMPAR"/>
+                <Button className="btnlimpar" onClick="clear()" innerText="LIMPAR"/>
             </div>
 
         </section>
@@ -23,5 +23,14 @@ function Main() {
     </main>
   )
 }
+
+function clear(){
+
+}
+
+function add(){
+
+}
+
 
 export default Main;
