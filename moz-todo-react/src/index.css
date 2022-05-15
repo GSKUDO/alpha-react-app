@@ -169,4 +169,47 @@ input::placeholder {
 .Show{
   height: 476px;
   background: #F2F2F2;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.showDescription{
+  margin: 0;
+  text-align: center;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  color: #0ACD86;
+}
+
+.showDate{
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  color: #D2D2D2;
+}
+
+.showLocal{
+  margin: 0;
+  text-align: center;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  color: #D2D2D2;
+}
+
+.cardshow{
+  background-color: white;
+  margin-left: 20px;
+  width: 327px;
+  height: 183px;
+  border-radius: 18px;
 }

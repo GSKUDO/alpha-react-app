@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Card from "./Cards";
 
 function Main() {
   const [description , setDescription] = useState('');
@@ -15,11 +16,8 @@ function Main() {
     setLocal(e.target.value);
   }
 
-  const handleSubmit= () => {
-    const description1 = description;
-    const date1 = date;
-    const local1 = local;
-    alert(description1 + date1 + local1)
+  const handleSubmit= (e) => {
+    alert(description + date + local)
   }
 
   const handleFormReset= (e) => {
@@ -46,7 +44,9 @@ function Main() {
          </div>
       </section>
       <section className="Show">         
-        <p></p>
+        <Card description={description} date={date} local={local}></Card>
+        <Card description={description} date={date} local={local}></Card>
+        <Card description={description} date={date} local={local}></Card>
       </section>
     </main>
   )
