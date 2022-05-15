@@ -88,6 +88,10 @@ main {
   margin-bottom: 30px;
 }
 
+input::placeholder {
+  color: #e7e7e7;
+}
+
 .inputDescription{
   margin-top: 40px;
   margin-left: 30px;
@@ -98,7 +102,7 @@ main {
   font-family: 'Jockey One';
   font-style: normal;
   font-weight: 400;
-  color: #f2f2f2;
+  color: black;
   padding-left: 20px;
   border: none;
 }
@@ -106,15 +110,16 @@ main {
 .inputDate{
   margin-top: 20px;
   margin-left: 30px;
-  width: 280px;
+  width: 260px;
   height: 38px;
   background: #FFFFFF;
   border-radius: 17px;
   font-family: 'Jockey One';
   font-style: normal;
   font-weight: 400;
-  color: #f2f2f2;
+  color: black;
   padding-left: 20px;
+  padding-right: 20px;
   border: none;
 }
 
@@ -128,7 +133,7 @@ main {
   font-family: 'Jockey One';
   font-style: normal;
   font-weight: 400;
-  color: #f2f2f2;
+  color: black;
   padding-left: 20px;
   border: none;
 }
